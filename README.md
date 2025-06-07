@@ -19,7 +19,7 @@ This project is a **Streamlit web app** that lets you upload a PDF and chat with
 ├── requirements.txt     # All Python dependencies
 ├── pyproject.toml       # Project metadata and dependencies
 ├── .python-version      # Python version (3.11)
-├── .venv/               # (Optional) Local virtual environment
+├── .venv/               # ignore this files
 └── README.md            # Project documentation
 ```
 
@@ -32,15 +32,15 @@ This project is a **Streamlit web app** that lets you upload a PDF and chat with
 ### 1. Clone the Repository
 
 ```bash
-git clone <repo-url>
-cd rag1
+git clone https://github.com/Arpit-mohankar/RAG
+cd RAG
 ```
 
 ### 2. Create a Virtual Environment (Recommended)
 
 ```bash
 python3.11 -m venv .venv
-source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+source .venv/bin/activate # On Windows: .venv\Scripts\activate
 ```
 
 ### 3. Install Dependencies
